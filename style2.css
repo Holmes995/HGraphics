@@ -1,0 +1,43 @@
+/*
+p {
+    color: #ff0000;
+    background-color:   #33ffc2;
+  }
+  */
+
+  .specialp {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+  }
+
+  #speicalid {
+    color: #ffffff;
+    background-color: rgb(255, 15, 15);
+  }
+
+  #divexample {
+    color: #ffffff;
+    background-color: Red;
+  }
+
+  .spanstyle {
+    color: red;
+  }
+
+  a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+
+  a:link {
+    color: red;
+  }
+
+  a:visited {
+    color: green;
+  }
+
+  a:hover {
+    color: yellow;
+    text-decoration: underline;
+  }    
