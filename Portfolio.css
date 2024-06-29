@@ -1,0 +1,202 @@
+body {
+  background-color: #000000;
+  background-image: url(folder/Design.jpg);
+}
+
+header {
+  grid-column: span 12;
+  background-color: #000000;
+  color: white;
+  padding: 5px 5px 5px 15px;
+  border: 3px solid #6d6d6d;
+  border-radius: 24px;
+  box-shadow: 3px 2px 7px #999;
+  
+}
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 1px 1px 20px #d41e1e;
+  font-family: 'Times New Roman', Times, serif
+  
+
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  text-decoration: underline;
+}
+
+
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+
+  
+   /* This is for the dummy columns, replace or delete */
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+h2 {
+  font-size: 50px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.ArtWork {
+  grid-column: span 12;
+  text-align: left;
+  background-color: #0e24e9c9;
+  padding: 20px;
+  margin: 6px 3px 3px 3px;
+  border: 2px solid #6d6d6d;
+  border-radius: 12px;
+  font-family: 'Times New Roman', Times, serif
+}
+
+div {
+  display:block
+  
+}
+
+nav li {
+  display: inline-block;
+  border: 1px solid #000000;
+  margin: 10px;
+  width: 200px;
+  background-color: #cc0000;
+  color: #ffffff;
+}
+
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: large;
+  display: block;
+  padding: 24px;
+  background-image: linear-gradient(to bottom, #f61313, #e41616, #d21616, #c01515, #ae1313);
+}
+
+nav ul {
+  list-style-type: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li a:hover {
+  background-color: #ff0202;
+  background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+
+li {
+  text-align: -webkit-match-parent;
+  
+  unicode-bidi: isolate;
+}
+
+.imgbox {
+width: 200px;
+padding: 20px;
+margin: 20px;
+}
+
+.imgbox2 {
+  width: 250px;
+  
+  padding: 20px;
+  margin: 20px;
+  }
+
+  .imgbox3 {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    }
+
+    .imgbox4 {
+      width: 300px;
+      padding: 20px;
+      margin: 20px;
+      }
+
+.ArtGames {
+  grid-column: span 12;
+  text-align: left;
+  background-color: #48ff48c9;
+  padding: 20px;
+  margin: 6px 3px 3px 3px;
+  border: 2px solid #6d6d6d;
+  border-radius: 12px;
+  font-family: 'Times New Roman', Times, serif
+
+}
+
+.ArtGames p {
+  font-size: 20px;
+  grid-column: span 8;
+}
+
+main {
+  grid-column: span 12;
+  display: grid;
+
+  font-family: 'Times New Roman', Times, serif
+  
+  
+} 
+
+footer {
+  grid-column: span 5;
+  background-color: #eb1616;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border: 3px solid #ffffff;
+  border-radius: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+footer p {
+  font-size: 25px;
+  font-family: "Courier Prime", monospace;
+  color: white;
+  grid-column: span 5;
+  text-shadow: 2px 3px 4px rgb(236, 34, 34);
+  text-align: center;
+}
+
+.Aboutme {
+  grid-column: span 12;
+  text-align: left;
+  background-color: #8848ffc9;
+  padding: 20px;
+  margin: 6px 3px 3px 3px;
+  border: 2px solid #6d6d6d;
+  border-radius: 12px;
+  font-family: 'Times New Roman', Times, serif
+
+}
+
+.Aboutme p {
+  font-size: 20px;
+  grid-column: span 8;
+}
